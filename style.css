@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.side-bar{
+    /* border: 2px solid black; */
+    position: absolute;
+    height: 100vh;
+    width: 60px;
+    text-align: center;
+}
+.menu-logo{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.menu-logo span{
+    font-size: 35px;
+}
+.menus{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.menus p{
+    font-size: 10px;
+}
+.nav{
+    margin-left: 60px;
+}
+.top-nav{
+    display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.bottom-nav{
+    height: 35px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 5px 0;
+}
+.bottom-nav button{
+    height: 25px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.top-left{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-image: url("./youtube-logo.png");
+    width: 140px;
+    height: 30px;
+    background-size: cover;
+    
+}
+.search-div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.search{
+    width: 50px;
+    height: 31px;
+    border: 1px solid rgb(122, 118, 118);
+    background-color: rgb(209, 204, 204);
+    padding-left: 10px;
+    padding-top: 4px;
+
+}
+.mic{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background-color: rgb(209, 204, 204);
+}
+input{
+    height: 30px;
+    width: 100%;
+}
+.top-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 15%;
+}
+.dp{
+    width: 30px;
+    height: 30px;
+    background-image: url(./me1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.container{
+    background-color: rgba(232, 235, 235, 0.856);
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.item{
+    background-color: white;
+    width: 275px;
+    height: 220px;
+    margin: 10px;
+}
+.thumnail{
+    background-image: url(./thumnail.jpg);
+    background-size: cover;
+    width: 275px;
+    height: 70%;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.profile-description{
+    display: flex;
+    gap: 10px;
+}
+span{
+    font-size: 8px;
+}
